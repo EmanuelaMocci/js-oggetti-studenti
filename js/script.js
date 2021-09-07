@@ -38,14 +38,14 @@ var studenti =
 // Dare la possibilità all’utente, attraverso 3 prompt(), 
 // di aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
-    var nome = parseInt(prompt('Inserisci il tuo nome:'));
+    var nome = (prompt('Inserisci il tuo nome:'));
 
     while (!isNaN(nome)) {
     nome = prompt('Inserisci correttamente il nome:') 
     }
     console.log(nome);
 
-    var cognome = parseInt(prompt('Inserisci il tuo cognome:'));
+    var cognome = (prompt('Inserisci il tuo cognome:'));
 
     while (!isNaN(cognome)) {
     cognome = prompt('Inserisci correttamente il cognome:') 
@@ -55,7 +55,7 @@ var studenti =
     var eta = parseInt(prompt('Inserisci la tua età:'));
 
     while (isNaN(eta)) {
-    eta = prompt('l età inseirta non è un numero riprova:') 
+    eta = prompt('Il dato inserito non è un numero. Riprova:') 
     }
     console.log(eta);
 
