@@ -5,12 +5,15 @@ var studenti = {
     "eta": ['26'],
 };
 
-console.log(studenti['nome']);
-console.log(studenti['cognome']);
-console.log(studenti['eta']);
 
+// console.log(studenti['nome']);
+// console.log(studenti['cognome']);
+// console.log(studenti['eta']);
 
 // Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
+for (var key in studenti){
+    console.log(studenti[key]);
+}
 
 
 // Creare un array di oggetti di studenti.
