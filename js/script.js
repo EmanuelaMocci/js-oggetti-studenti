@@ -1,8 +1,8 @@
 // Creare un oggetto che descriva uno studente, con le seguenti proprietà: nome, cognome e età.
-var studenti = {
+var studente = {
     "nome": ['Andrea'],
     "cognome": ['Rossi'],
-    "eta": ['26'],
+    "eta": 26
 };
 
 
@@ -11,13 +11,29 @@ var studenti = {
 // console.log(studenti['eta']);
 
 // Stampare a schermo attraverso un ciclo for-in tutte le proprietà dell'oggetto.
-for (var key in studenti){
-    console.log(studenti[key]);
+for (var key in studente){
+    console.log(studente[key]);
 }
 
-
 // Creare un array di oggetti di studenti.
-
+var studenti = 
+    [
+        {
+            "nome": 'Giulia',
+            "cognome": 'Verdi',
+            "eta": 24,
+        },
+        {
+            "nome": 'Serena',
+            "cognome": 'Neri',
+            "eta": 22,
+        },
+        {
+            "nome": 'Francesca',
+            "cognome": 'Bianchi',
+            "eta": 28
+        }
+    ]
 
 // Ciclare su tutti gli studenti e stampare per ognuno di essi, nome e cognome.
 
